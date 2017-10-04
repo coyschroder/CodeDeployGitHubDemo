@@ -23,12 +23,8 @@ os: linux
 #   "files" section altogether. A blank or incomplete "files" section
 #   may cause associated deployments to fail.
 files:
-  - source: index.html
-<<<<<<< HEAD
-    destination: /var/www/html
-=======
-    destination: /var/www/html/public_html
->>>>>>> c59b99273175373fd383f4466c03ed547a7c8784
+  source: Dashboard
+  destination: /var/www/html
 # For deployments to Amazon Linux, Ubuntu Server, or RHEL instances,
 #   you can specify a "permissions" 
 #   section here that describes special permissions to apply to the files 
